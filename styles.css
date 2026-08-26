@@ -64,12 +64,22 @@ header {
     display:flex;
     align-items: center;
     justify-content:center;
-    gap: 2rem;
+    gap: 3rem;
     padding: 3rem;
 }
 
 .hero-text, .hero-img {
     flex-basis: 35%;
+}
+
+.hero-img {
+    background-color:grey;
+    aspect-ratio: 2;
+}
+
+.hero-img img {
+    max-width: 100%;
+    aspect-ratio: 2;
 }
 
 .info {
@@ -82,17 +92,20 @@ header {
 .info-content {
     display: flex;
     gap: 2rem;
+    justify-content: center;
 }
 
 .info-content-item {
-    flex-basis: 150px;
+    width: 15%;
     text-align:center;
 }
 
-.info-img {
-    border: 3px solid rgb(0, 132, 255);
+.info-img img {
     border-radius: 10%;
-    height: 150px;
+    aspect-ratio: 1;
+    object-fit:cover;
+    max-width:100%;
+    border: 3px solid rgb(0, 132, 255);
 }
 
 .quote {  
