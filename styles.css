@@ -80,12 +80,12 @@ header {
 
 .hero-img {
     aspect-ratio: 2;
-    object-fit: cover;
 }
 
 .hero-img img {
     max-width: 100%;
     aspect-ratio: 2;
+    object-fit: cover;
 }
 
 .info {
