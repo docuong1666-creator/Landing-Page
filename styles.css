@@ -79,8 +79,8 @@ header {
 }
 
 .hero-img {
-    background-color:grey;
     aspect-ratio: 2;
+    object-fit: cover;
 }
 
 .hero-img img {
