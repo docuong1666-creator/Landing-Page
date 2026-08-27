@@ -68,6 +68,12 @@ header {
     padding: 3rem;
 }
 
+@media (max-width: 768px) {
+    .hero {
+        flex-direction:column;
+    }
+}
+
 .hero-text, .hero-img {
     flex-basis: 35%;
 }
